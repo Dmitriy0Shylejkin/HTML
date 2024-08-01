@@ -1,0 +1,209 @@
+body, html {
+    overflow-x: hidden;
+  }
+  
+  .sections {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .header {
+    width: 600px;
+    margin: auto;
+  }
+
+  .circle {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(170,169,183);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .sections-count {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .first-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .product-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .definition {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .texts-of-definition {
+    margin-top: -20px;
+    margin-left: 60px;
+  }
+  
+  .inputs {
+    display: block;
+  }
+  
+  .input-text, 
+  .input-disabled, 
+  .input-password, 
+  .input-textarea, 
+  .input-button, 
+  .button-button {
+    display: block;
+    padding: 5px 5px;
+  }
+  
+  table, td, th {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 400px;
+    height: 50px;
+  }
+  
+  .tables-first {
+    padding: 5px 10px;
+    display: flex;
+  }
+  
+  .table-1, .table-2, .table-3 {
+    display: flex;
+}
+  
+  .second-table {
+    display: flex;
+    padding: 5px 10px;
+  }
+  
+  .third-table {
+    padding: 5px 10px;
+  }
+  
+  .block-one {
+    border: 2px solid gray;
+    width: 600px;
+    height:100px;
+    padding: 5px 10px;
+  }
+  
+/* Section 4 */
+.first-block, 
+.second-block, 
+.third-block, 
+.fourth-block {
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+.block-one, 
+.block-two, 
+.block-three, 
+.block-four {
+    width: 250px;
+    height: auto;
+    border: 2px solid gray; 
+}
+
+.block-one__text {
+    white-space: normal;
+}
+
+.block-two__text {
+    white-space: nowrap;
+}
+
+.block-three__text {
+    white-space: pre;
+}
+
+.block-four__text {
+    white-space: break-spaces;
+}
+
+/* Section 5 */
+.sections-five {
+    background-color: rgb(172,165,183);
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .block-p {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 600px;
+    margin: 16px 16px;
+  }
+  
+  .block-div {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 600px;
+    margin: 16px 16px;
+  }
+  
+  .block-span {
+    background-color:rgb(191,82,97);
+    height:50px;
+    width: 150px;
+    display: inline-block;
+    margin: 0px 16px;
+  }
+  
+  .block-input {
+    width: 200px;
+  }
+  
+  .block-h3 {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 600px;
+    display:inline-block;
+    margin: 16px 16px;
+  }
+  
+  .block-button {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 200px;
+    margin: 5px 16px;
+  }
+  
+  .block-of-section {
+    display: flex;
+    gap: 0;
+  }
+  
+  .block-section-one {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 150px;
+    margin: 5px 16px;
+  }
+  
+  .block-section-two {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 150px;
+    margin-: 5px;
+  }
+  

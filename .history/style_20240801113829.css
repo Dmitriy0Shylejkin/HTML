@@ -1,0 +1,118 @@
+body, html {
+    overflow-x: hidden;
+}
+
+.sections {
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    width: 600px;
+    margin: auto;
+}
+
+.sections-count {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ellipse-1, .circle {
+    position: relative;
+    display: inline-block;
+}
+
+.circle {
+    width: 42px;
+    height: 42px;
+    background-color: #AAA9B7;
+    ;
+    border-radius: 50%; /* Делает элемент круглым */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.count-text, .first-list, .first-table, .count-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px; /* Увеличьте размер шрифта, если нужно */
+    color: rgb(0, 0, 0); /* Измените цвет текста, если нужно */
+}
+
+.product-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.definition {
+    display: flex;
+    align-items: flex-start;
+}
+
+.texts-of-definition {
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.inputs {
+    display: block;
+}
+
+.input-text,
+.input-button,
+.input-disabled,
+.input-password,
+.input-textarea,
+.input-button,
+.button-button {
+    display: block;
+    padding: 5px 5px;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 400px;
+    height: 50px;
+}
+
+.tables-first {
+    padding: 5px 10px;
+    display: flex;
+}
+
+.table-1, .table-2, .table-3 {
+    display: flex;
+}
+
+.first-block, .second-block, .third-block, .fourth-block {
+    display: flex;
+    padding: 5px 10px;
+    width: 250px;
+    align-items: center; /* Центрирует элементы по вертикали */
+}
+
+.block-one, .block-two, .block-three, .block-four {
+    width: 250px;
+    height: auto;
+    border: 2px solid gray;
+    padding: 5px 10px;
+    word-wrap: break-word; /* Предотвращает переполнение текста */
+}
+
+.block-one__text, .block-two__text, .block-three__text, .block-four__text {
+    white-space: normal;
+}
