@@ -1,0 +1,534 @@
+body, html {
+    overflow-x: hidden;
+  }
+  
+  .sections {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .header {
+    width: 600px;
+    margin: auto;
+  }
+
+  .circle {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(170,169,183);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .sections-count {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .first-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .product-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .definition {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .texts-of-definition {
+    margin-top: -20px;
+    margin-left: 60px;
+  }
+  
+  .inputs {
+    display: block;
+  }
+  
+  .input-text, 
+  .input-disabled, 
+  .input-password, 
+  .input-textarea, 
+  .input-button, 
+  .button-button {
+    display: block;
+    padding: 5px 5px;
+  }
+  
+  table, td, th {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 400px;
+    height: 50px;
+  }
+  
+  .tables-first {
+    padding: 5px 10px;
+    display: flex;
+  }
+  
+  .table-1, .table-2, .table-3 {
+    display: flex;
+}
+  
+  .second-table {
+    display: flex;
+    padding: 5px 10px;
+  }
+  
+  .third-table {
+    padding: 5px 10px;
+  }
+  
+  .block-one {
+    border: 2px solid gray;
+    width: 600px;
+    height:100px;
+    padding: 5px 10px;
+  }
+  
+/* Section 4 */
+.first-block, 
+.second-block, 
+.third-block, 
+.fourth-block {
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+.block-one, 
+.block-two, 
+.block-three, 
+.block-four {
+    width: 250px;
+    height: auto;
+    border: 2px solid gray; 
+}
+
+.block-one__text {
+    white-space: normal;
+}
+
+.block-two__text {
+    white-space: nowrap;
+}
+
+.block-three__text {
+    white-space: pre;
+}
+
+.block-four__text {
+    white-space: break-spaces;
+}
+
+/* Section 5 */
+.all-blocks{
+    background-color: rgb(172,165,183);
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+  
+  .block-p {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 600px;
+    margin: 16px 16px;
+  }
+  
+  .block-div {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 600px;
+    margin: 16px 16px;
+  }
+  
+  .block-span {
+    background-color:rgb(191,82,97);
+    height:50px;
+    width: 150px;
+    display: inline-block;
+    margin: 0px 16px;
+  }
+  
+  .block-input {
+    width: 200px;
+  }
+  
+  .block-h3 {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 600px;
+    display:inline-block;
+    margin: 16px 16px;
+  }
+  
+  .block-button {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 200px;
+    margin: 5px 16px;
+  }
+  
+  .block-of-section {
+    display: flex;
+    gap: 0;
+  }
+  
+  .block-section-one {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 150px;
+    margin: 5px 16px;
+  }
+  
+  .block-section-two {
+    background-color: rgb(191,82,97);
+    height:50px;
+    width: 150px;
+    margin: 5px -13px;
+  }
+
+  /* Section 6 */
+  .selectors {
+    margin: 16px 16px;
+    width: 600px;
+  }
+  
+  /* 0, 1, 1 */
+  .div-tags p { 
+    background-color: orange;/* 1 */
+  }
+  
+  /* 0, 1, 1 */
+  .div-tags h2 { 
+    background-color: blue;/* 2 */
+  }
+  
+  /* 1, 0, 1 */
+  #test p {
+    background-color: yellow;/* 3 */
+  }
+  
+  /* 1, 0, 1 */
+  #test h2 {
+    background-color: red;/* 4 */
+  }
+  
+  /* 0, 1, 0 */
+  .bbb {
+    background-color: green;/* 5 */
+  }
+  
+  /* 1, 1, 0 */
+  #test .bbb {
+    font-style: italic;/* 6 */
+  }
+  
+  /* 0, 1, 1 */
+  .bbb p {
+    background-color: rgb(246, 4, 4);/* 7 */
+  }
+  
+  /* 1, 1, 1 */
+  #test .bbb h2 {
+    color: white;/* 8 */
+  }
+  
+  /* 1, 1. 1 */
+  #test .bbb p {
+    font-size: 20px;/* 9 */
+  }
+  
+  /* 0, 1, 0 */
+  .bbb, .xxx {
+    text-align: center;/* 10 */
+  }
+  
+  /* 0, 1, 1 0, 1, 1 */
+  .bbb p, .xxx h2 {
+    background-color: aqua; /* 11 */
+  }
+  
+  /* 1, 1, 1, 1, 1, 1 */
+  #test .bbb p, #test .xxx p { /*12*/
+    border: 2px solid gray;
+  }
+  
+  /* 0, 1, 1 */
+  div .fff {
+    background-color: greenyellow; /* 13 */
+  }
+  
+  /* 0, 1, 1 */
+  .fff > p { /* 14 */
+    color: red;
+  }
+  
+  /* 0, 1, 1 */
+  .fff p { /* 15 */
+    color:blueviolet;
+  }
+  
+  /* 0, 2, 0 */
+  .fff .bbb { /* 16 */
+    border: 2px solid blue;
+  }
+  
+  /* 0, 2, 1 */
+  .fff .bbb h2 { /* 17 */
+    background-color: cornflowerblue;
+  }
+  
+  /* 0, 1, 1 */
+  .selectors span { /* 18 */
+    border-top: 2px solid red;
+  }
+  
+  /* 0, 1, 1 */
+  div[data-value='45'] { /* 19 */
+    border-bottom: 2px solid maroon;
+  }
+  
+  /* 0, 1, 0 */
+  .parents {
+    border-bottom: 5px solid grey; /* 20 */
+  }
+  
+  /* 0, 1, 0 */
+  .text-active{
+    background-color: chocolate; /* 21 */
+  }
+  
+  /* 1, 1, 1 */
+  #my-test li:nth-child(2) { /* 22 */
+    color:blue;
+  }
+  
+  /* 0, 1, 1 */
+  .parent-container img {
+    max-width: 20%;
+    height: auto;
+  }
+  
+  /* 0, 1, 2 */
+  .parent-container h1 + p { /* 23 */
+    background-color: blue;
+  }
+  
+  /* 0, 1, 2 */
+  .parent-container div ~ p { /*24*/
+    border-top: 5px solid red;
+  }
+  
+  /* 0, 1, 1 */
+  .parent-container :not(img) { /*25*/
+    border: 2px solid green;
+  }
+
+  /* Section 7 */
+
+.section-seven__tasks-first,
+.section-seven__tasks-second {
+  display: flex;
+  margin: 16px 16px;
+}
+
+.first-tasks__count-text,
+.tasks-second__count-text {
+  position: absolute;
+  top:3%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+}
+
+.tasks-first__parent-block {
+  background-color: hotpink;
+  width: 600px;
+  height: 600px;
+  margin: 5px 16px 16px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tasks-first__parent-block div {
+  position: static;
+  background-color: rgb(255, 0, 0);
+  border: 5px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 20px 20px;
+}
+
+/* Произойдёт смещение всех блоков */
+/* .parent-block .parent-block__child-block_2 { 
+  position: absolute;
+  top: 50px;
+  left:50px;
+} */
+
+/* Произойдёт смещение 2 блока */
+/* .parent-block .parent-block__child-block_2 {
+  position: relative;
+  top: 50px;
+  left:50px;
+} */
+
+.tasks-second__background-image {
+  position: relative;
+  margin: 5px 16px 16px;
+  background-image: url("./img/Rectangle\ 26.png");
+  width: 600px;
+  height: 400px;
+}
+
+.tasks-second__background-image > img {
+  position: absolute;
+}
+
+.background-image__image-1 {
+  z-index: 0;
+  left: 24%;
+  top: 5%;
+  width: 20%;
+  height: auto;
+}
+
+.background-image__image-2 {
+  z-index: 1;
+  left:10%;
+  top:20%;
+  width: 25%;
+  height: auto;
+}
+
+.background-image__image-3 {
+  z-index: 2;
+  left:24%;
+  top:39%;
+  width: 7%;
+  height: auto;
+}
+
+.background-image__image-4 {
+  z-index: 3;
+  left:25%;
+  top:37%;
+  width: 36%;
+  height: auto;
+}
+
+.background-image__image-5 {
+  z-index: 4;
+  left:24%;
+  top:72%;
+  width: 10%;
+  height: auto;
+}
+
+.background-image__image-6 {
+  z-index: 5;
+  right:24%;
+  bottom:68%;
+  width: 10%;
+  height: auto;
+}
+
+.background-image__image-7 {
+  z-index: 6;
+  right:16%;
+  bottom:0;
+  width: 13%;
+  height: auto;
+}
+
+
+/* Section 8 */
+.section-eight {
+    margin: auto auto;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: floralwhite;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .section-eight__block-1 {
+    margin: 30px; 
+    padding: 20px; 
+    width: 200px; 
+    height: 200px; 
+    background-color: pink; 
+    border: 5px solid black;
+  }
+  
+  .section-eight__block-2 {
+    margin: 30px; 
+    padding: 20px; 
+    width: 200px; 
+    height: 200px; 
+    background-color: pink; 
+    border: 5px solid black;
+    box-sizing: border-box;
+  }
+  
+  /* Section 9 */
+.sections-nine > div{
+    margin: 10px;
+}
+
+.first-maket, 
+.second-maket, 
+.third-maket, 
+.fourth-maket, 
+.fifth-maket, 
+.sixth-maket,
+.seventh-maket, 
+.eighth-maket, 
+.ninth-maket, 
+.tenth-maket, 
+.eleventh-maket {
+  display:flex;
+}
+
+.first-maket {
+    margin: auto auto;
+    display:flex;
+    height:200px;
+    width:600px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #8B008B;
+}
+
+.first-maket > div{
+    height: 50px;
+    margin: 20px 10px;
+    background-color: orange;
+}
+
+.first-malet
