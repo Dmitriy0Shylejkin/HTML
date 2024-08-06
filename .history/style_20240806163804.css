@@ -1378,6 +1378,7 @@ body, html {
   justify-self: center;
   align-self: center;
 }
+
 /* Flexbox containers */
 .section-15__tasks-second {
   display: flex;
@@ -1394,7 +1395,7 @@ body, html {
   border: 5px solid black;
   padding: 20px;
   background-color: pink;
-  width: 400px; /* Увеличенная ширина контейнера */
+  width: 600px; /* Увеличенная ширина контейнера */
   height: 400px; /* Увеличенная высота контейнера */
   margin-bottom: 20px;
 }
@@ -1402,11 +1403,11 @@ body, html {
 .flex-item {
   background-color: red;
   border: 2px solid black;
-  width: 100px; /* Ширина элемента с учетом отступа */
-  height: 100px; /* Высота элемента с учетом отступа */
+  width: 100px; /* Увеличенная ширина квадрата */
+  height: 100px; /* Увеличенная высота квадрата */
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
   color: black;
   padding: 5px; /* Добавляем отступ для текста */

@@ -1330,7 +1330,8 @@ body, html {
 /* Секция 15 */
 .section-15__tasks-first {
   display: grid;
-  
+  grid-template-columns: auto 1fr;
+  gap: 20px;
 }
 
 .grid-container-1,
@@ -1377,61 +1378,4 @@ body, html {
 .grid-item-5 {
   justify-self: center;
   align-self: center;
-}
-/* Flexbox containers */
-.section-15__tasks-second {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.flex-container-1,
-.flex-container-2,
-.flex-container-3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  border: 5px solid black;
-  padding: 20px;
-  background-color: pink;
-  width: 400px; /* Увеличенная ширина контейнера */
-  height: 400px; /* Увеличенная высота контейнера */
-  margin-bottom: 20px;
-}
-
-.flex-item {
-  background-color: red;
-  border: 2px solid black;
-  width: 100px; /* Ширина элемента с учетом отступа */
-  height: 100px; /* Высота элемента с учетом отступа */
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: 18px;
-  color: black;
-  padding: 5px; /* Добавляем отступ для текста */
-  box-sizing: border-box; /* Учитываем padding и border в ширине и высоте */
-}
-
-/* Case 1: Center all items within their cells */
-.flex-container-1 {
-  align-items: center;
-  justify-content: center;
-}
-
-/* Case 2: Move all items to the bottom right corner */
-.flex-container-2 {
-  align-content: flex-end;
-  justify-content: flex-end;
-}
-
-/* Case 3: Move only child_9 to the bottom right corner */
-.flex-container-3 {
-  position: relative;
-}
-
-.flex-container-3 .flex-item:nth-child(9) {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
 }

@@ -1378,7 +1378,7 @@ body, html {
   justify-self: center;
   align-self: center;
 }
-/* Flexbox containers */
+
 .section-15__tasks-second {
   display: flex;
   flex-direction: column;
@@ -1394,7 +1394,7 @@ body, html {
   border: 5px solid black;
   padding: 20px;
   background-color: pink;
-  width: 400px; /* Увеличенная ширина контейнера */
+  width: 600px; /* Увеличенная ширина контейнера */
   height: 400px; /* Увеличенная высота контейнера */
   margin-bottom: 20px;
 }
@@ -1402,15 +1402,14 @@ body, html {
 .flex-item {
   background-color: red;
   border: 2px solid black;
-  width: 100px; /* Ширина элемента с учетом отступа */
-  height: 100px; /* Высота элемента с учетом отступа */
+  width: calc(33.333% - 20px); /* Ширина элемента с учетом отступа */
+  height: calc(33.333% - 20px); /* Высота элемента с учетом отступа */
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
   color: black;
   padding: 5px; /* Добавляем отступ для текста */
-  box-sizing: border-box; /* Учитываем padding и border в ширине и высоте */
 }
 
 /* Case 1: Center all items within their cells */

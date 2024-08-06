@@ -1406,7 +1406,7 @@ body, html {
   height: 100px; /* Высота элемента с учетом отступа */
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: 18px;
   color: black;
   padding: 5px; /* Добавляем отступ для текста */
